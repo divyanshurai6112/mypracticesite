@@ -1,0 +1,155 @@
+body {
+  text-align: center;
+  background-color: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Merriweather', serif;
+  /* or we can substitute the above 4 statments by a single statment margin :0; */
+}
+
+h1 {
+  color: #66bfbf;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 50px;
+  /*100% = 16px*/
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+.top-container {
+  padding-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e4f9f5;
+}
+
+.intro {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 25%;
+  line-height: 2;
+}
+
+.middle-container {
+  padding-bottom: 100px;
+}
+
+.bottom-container {}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 310px;
+  left: 270px;
+}
+
+.upper-cloud {
+  position: absolute;
+  right: 270px;
+  top: 50px;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.copyright-footer {
+  margin-bottom: 0px;
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.code {
+  border-radius: 100%;
+  height: auto;
+  max-width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.football {
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 8%;
+  background-color: none;
+  border-color: #eaf6f6;
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-me-description {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 15px;
+  line-height: 15px;
+  color: #EAF6F6;
+  font-family: Helvetica;
+  width: 110px;
+  font-size: 16px;
+  padding: 29px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #11999E;
+  border: solid #11999E 0;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  border-radius: 41px;
+  text-decoration: none;
+}
