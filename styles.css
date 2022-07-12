@@ -85,12 +85,12 @@ h3 {
   border-radius: 100%;
   height: auto;
   max-width: 40%;
-  float: left;
   margin-right: 30px;
 }
 
 .business{
   float:right;
+  border-radius:0%;
 }
 
 .football {
